@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items:flex-end;
+  align-content:flex-end;
+}
+.item {
+  flex-basis: 25%
+
+}
+img{
+  width: 17em;
+  border-radius: 2%;
+  align-self:flex-end;
+
+}
+h3 {
+  color:red;
+  font-family: Arial;
+}
