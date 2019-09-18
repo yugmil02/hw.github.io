@@ -5,6 +5,7 @@
   width: 100%;
   align-items:flex-end;
   align-content:flex-end;
+  margin-top:5%;
 }
 .item {
   flex-basis: 25%
@@ -19,4 +20,8 @@ img{
 h3 {
   color:red;
   font-family: Arial;
+}
+button{
+  text-align:center;
+  width:15%;
 }
