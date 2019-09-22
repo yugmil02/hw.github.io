@@ -1,9 +1,15 @@
 img {
   width: 100%;
+<<<<<<< HEAD
   padding-right: 3px;
   padding-bottom: 3px;
   padding-top: 3px;
   padding-left: 3px;
+=======
+  align-items:flex-end;
+  align-content:flex-end;
+  margin-top:5%;
+>>>>>>> 8123d0e1f8fa9771d7294483ed9fa4a4c2ae09e6
 }
 .images {
   position: relative;
@@ -72,4 +78,8 @@ h4 {
   border: 2px solid;
   padding: 2px 2px 2px 2px;
   text-align: center;
+}
+button{
+  text-align:center;
+  width:15%;
 }
