@@ -1,12 +1,13 @@
 img {
   width: 100%;
-  padding-right: 3px;
-  padding-bottom: 3px;
-  padding-top: 3px;
-  padding-left: 3px;
+
   align-items:flex-end;
   align-content:flex-end;
-  margin-top:5%;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  padding-left: 1px;
+
 }
 .images {
   position: relative;
