@@ -44,8 +44,9 @@ h4 {
   text-align: center;
   }
 .card-icon i {
-    width: 70px;
+    width: 100%;
     display: block;
+    text-align: center;
     margin: auto;
     color: rgb(232, 69, 69);
   }
@@ -55,30 +56,34 @@ h4 {
     padding-top: 5rem;
     padding-left: 10rem;
     padding-right: 10rem;
-    padding-bottom: 5rem;
+    padding-bottom: 4rem;
   }
 .card-text p {
     color: black;
-    font-size: 15px;
+    font-size: 90%;
     text-align: center;
     font-family: raleway;
 }
 .card-title h3 {
-    font-size: 15px;
+    font-size: 85%;
     text-align: center;
     padding-top: 1em;
     font-family: raleway;
   }
 .card-title h2 {
-  text-align: center;
+  font-size: 25px;
+  font-family: raleway;
 }
 .card-text-description  p{
-
-    font-size: 12px;
-    color: black;
+  font-size: 80%;
+  color: black;
   }
 .card-title p {
   color: red;
+  font-family: raleway;
+  font-size: 90%;
+  text-align: left;
+
 }
 
 button{
@@ -87,7 +92,7 @@ button{
 }
 nav, header {
   background-image: url(../images/ph9.jpg);
-  background-size: cover;
+
 }
 .maindescription{
   padding-top: 10rem;
@@ -124,8 +129,8 @@ nav, header {
 
 .container {
   justify-content: center;
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 17rem;
+  margin-right: 17rem;
 
 }
 header {
@@ -134,7 +139,6 @@ header {
   padding-right: 15rem;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: white;
   font-size: 15px;
   font-family: raleway;
 }
@@ -152,10 +156,101 @@ header {
   padding-left: 1em;
   padding-right: 1em;
 }
-.navbar-light .navbar-brand {
-  color:white;
-}
+
 
 .container-fluid {
   padding-bottom: 2rem;
+}
+.space  {
+  display:flex;
+  justify-content: space-around;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+
+}
+.card-text-description a {
+  border: 1px solid gray;
+  padding: 2px 2px 2px 2px;
+}
+.card-text-description i {
+  color: gray;
+}
+
+.firstpart {
+  text-align: center;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+
+}
+.firstpart h2 {
+  font-size: 20px;
+  font-family: raleway;
+}
+.firstpart p {
+  color: black;
+  font-weight: bold;
+  font-size: 50%;
+}
+.firstpart button {
+  background: rgb(232, 69, 69);
+  border: none;
+  color: white;
+  border-radius: 2px;
+  padding: 1em 1em 1em 1em;
+  font-size: 11px;
+  font-weight: 700;
+
+}
+.container-fluid-foot {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: rgb(82, 53, 73)
+
+}
+.container-fluid-foot h5{
+  text-align: center;
+  font-family: raleway;
+  font-size: 80%;
+}
+.container-fluid-foot p{
+  width: 80%;
+  text-align: center;
+  font-size: 40%;
+  margin: 0 auto;
+
+}
+.container-fluid-foot i{
+  border: 1px solid white;
+  padding: 2px 2px 2px 2px;
+  color: white;
+  padding: 3px 3px 3px 3px;
+  margin-left: 0.5rem;
+}
+.carousel-caption{
+  position: absolute;
+  display: flex;
+  background-color: rgb(82, 53, 73);
+  margin-left: 27rem;
+  height: 87%;
+  margin-bottom: 0 auto;
+
+}
+.doublecarousel img{
+  position: relative;
+
+}
+.doublecarousel {
+  width:100%;
+  display: flex;
+  margin-top: 1rem;
+
+}
+.carousel-caption p{
+  text-align: center;
 }
