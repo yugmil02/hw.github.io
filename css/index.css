@@ -57,6 +57,7 @@ h4 {
     padding-left: 10rem;
     padding-right: 10rem;
     padding-bottom: 4rem;
+
   }
 .card-text p {
     color: black;
@@ -161,8 +162,9 @@ header {
 .container-fluid {
   padding-bottom: 2rem;
 }
-.space  {
-  display:flex;
+
+.card-group-members {
+  display: flex;
   justify-content: space-around;
   padding-left: 10rem;
   padding-right: 10rem;
@@ -180,7 +182,7 @@ header {
 .firstpart {
   text-align: center;
   padding-bottom: 4rem;
-  padding-top: 4rem;
+
 
 }
 .firstpart h2 {
@@ -234,23 +236,26 @@ header {
 }
 .carousel-caption{
   position: absolute;
-  display: flex;
   background-color: rgb(82, 53, 73);
-  margin-left: 27rem;
-  height: 87%;
-  margin-bottom: 0 auto;
+  margin-left: 398px;
+  width: 50%;
+  height: 85%;
+
+
 
 }
 .doublecarousel img{
   position: relative;
-
 }
-.doublecarousel {
-  width:100%;
-  display: flex;
-  margin-top: 1rem;
 
-}
 .carousel-caption p{
   text-align: center;
+
+}
+.doublecarousel{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.carousel-inner .carousel-item {
+
 }
