@@ -234,16 +234,7 @@ header {
   padding: 3px 3px 3px 3px;
   margin-left: 0.5rem;
 }
-.carousel-caption{
-  position: absolute;
-  background-color: rgb(82, 53, 73);
-  margin-left: 398px;
-  width: 50%;
-  height: 85%;
 
-
-
-}
 .doublecarousel img{
   position: relative;
 }
@@ -252,10 +243,32 @@ header {
   text-align: center;
 
 }
-.doublecarousel{
+
+
+.spot .carousel-indicators li{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+
+}
+.row .carousel-caption {
+  position: absolute;
+  background-color: rgb(82, 53, 73);
+  display: block;
+  margin-left: 398px;
+  height: 97%;
+  width: 50%;
+  padding-top: 4rem;
+  
+}
+
+.carousel-caption h5{
+  text-align: center;
+}
+.carousel {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.carousel-inner .carousel-item {
+.carousel .container {
 
 }
